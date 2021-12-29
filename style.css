@@ -1,10 +1,26 @@
 body {
     background: white;
+    font-family: sans-serif;
+    line-height: 1.5;
 }
-#grid-container {
-    display: grid;
-    grid-template-columns: 0.75fr 3fr;
+header {
+    font-size: x-large
 }
 #navbar {
-
+    position: fixed;
+    float: left;
+    top: 0;
+    border-right: 2px solid gray;
+    width: 290px;
+    height: 100vh;
+}
+#main-doc {
+    grid-area: main;
+    padding-left: 20px;
+    margin-left: 310px;
+}
+#navbar li {
+    list-style: none;
+    border-top: 1px solid black;
+    width: 100%;
 }
