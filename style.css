@@ -4,13 +4,16 @@ body {
     line-height: 1.5;
 }
 header {
-    font-size: x-large
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
 }
 #navbar {
     position: fixed;
     float: left;
     top: 0;
-    border-right: 2px solid gray;
+    left: 0;
+    border-right: 5px solid silver;
     width: 290px;
     height: 100vh;
 }
@@ -20,7 +23,19 @@ header {
     margin-left: 310px;
 }
 #navbar li {
-    list-style: none;
+    position: relative;
+    list-style-type: none;
     border-top: 1px solid black;
     width: 100%;
+}
+#navbar ul {
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0;
+}
+.nav-link {
+    display: block;
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+    padding: 10px 30px;
 }
