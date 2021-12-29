@@ -13,13 +13,14 @@ header {
     top: 0;
     left: 0;
     border-right: 5px solid silver;
-    width: 290px;
+    width: 25vw;
+    min-width: 200px;
     height: 100%;
 }
 #main-doc {
     grid-area: main;
     padding-left: 20px;
-    margin-left: 310px;
+    margin-left: clamp(220px, 25vw, 25vw);
 }
 #navbar li {
     position: relative;
