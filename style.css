@@ -22,6 +22,9 @@ header {
     padding-left: 20px;
     margin-left: clamp(220px, 25vw, 25vw);
 }
+#main-doc header {
+    text-align: left;
+}
 #navbar li {
     position: relative;
     list-style: none;
