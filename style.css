@@ -1,0 +1,10 @@
+body {
+    background: white;
+}
+#grid-container {
+    display: grid;
+    grid-template-columns: 0.75fr 3fr;
+}
+#navbar {
+
+}
