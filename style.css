@@ -10,12 +10,11 @@ header {
 }
 #navbar {
     position: fixed;
-    float: left;
     top: 0;
     left: 0;
     border-right: 5px solid silver;
     width: 290px;
-    height: 100vh;
+    height: 100%;
 }
 #main-doc {
     grid-area: main;
@@ -24,18 +23,23 @@ header {
 }
 #navbar li {
     position: relative;
-    list-style-type: none;
+    list-style: none;
     border-top: 1px solid black;
     width: 100%;
 }
 #navbar ul {
+    padding: 0;
+    height: 88%;
     overflow-y: auto;
     overflow-x: hidden;
-    padding: 0;
+    
 }
 .nav-link {
     display: block;
     text-decoration: none;
     color: rgb(59, 59, 59);
     padding: 10px 30px;
+}
+#navbar li :hover, #navbar li :focus {
+    background: rgb(196, 196, 196);
 }
