@@ -49,6 +49,13 @@ header {
 #navbar li :hover, #navbar li :focus {
     background: rgb(218, 218, 218);
 }
+code {
+    display: block;
+    background-color: rgb(231, 231, 231);
+    margin-left: 10px;
+    padding: 5px 10px 5px 10px;
+    width: 80%;
+}
 @media screen and (max-width: 800px) {
     #navbar {
         position: static;
